@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <!-- Link External CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="top">
+    <h1>Ayushi’s Portfolio</h1>
+    <p>Web Developer | Designer | Learner</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <hr>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="/image.jpg" alt="My Photo" class="profile-pic">
+    <p>Hello! I'm Ayushi, a passionate web developer with a love for clean design and smooth user experiences. I enjoy learning new technologies and building creative projects.</p>
+  </section>
+
+  <hr>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Portfolio Website</li>
+      <li>GradeBook Analyzer (Python)</li>
+      <li>Sweet Shop Website</li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <!-- Skills Table -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <table>
+      <tr>
+        <th>Skill</th>
+        <th>Proficiency</th>
+      </tr>
+      <tr>
+        <td>HTML & CSS</td>
+        <td>learning</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>No skill</td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td>Intermediate</td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+
+  <!-- Contact Section -->
+  
+    <h2>Contact Me</h2>
+    <section id="Contact">
+                <h1 class="contact">Contact Me</h1>
+                <form>
+                    <label for="name">Name: </label>
+                    <input type="text" placeholder="Enter your name" id="name"><br><br>
+                    <label for="email">Email: </label>
+                    <input type="email" placeholder="Enter your email" id="email"><br><br>
+                    <label>Message:</label>
+                    <textarea placeholder="Enter your message"></textarea><br><br>
+                    <button>Send</button>
+                    <button id="back-to-top">back to top</button>
+                </form>
+           
+    <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Back to Top</button>
+  </section>
+
+  <footer>
+    <p>© 2025 Ayushi. My Portfolio</p>
+  </footer>
+</body>
+</html>
